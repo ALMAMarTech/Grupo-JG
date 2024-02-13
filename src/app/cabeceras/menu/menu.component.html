@@ -1,0 +1,29 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-menu" >
+  <div class="container-fluid mx-1">
+  <button type="button" class="navbar-toggler" data-bs-target="#navBar" data-bs-toggle="collapse"
+          aria-controls="navBar" aria-expanded="false" aria-label="Toggle">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navBar">
+  <div class="text-start">
+    <ul class="navbar-nav mx-5 py-2">
+  <li class="navbar-item">
+    <a [routerLink]="['/grupo-jg']" routerLinkActive="active" class="navbar-link px-md-2 font-menu">INICIO</a>
+  </li>
+    <li class="navbar-item">
+      <a [routerLink]="['/conoce-jg']" routerLinkActive="active" class="navbar-link px-md-2 font-menu">CONOCE JG</a>
+    </li>
+    <li class="navbar-item" *ngIf="change()">
+      <a [routerLink]="['/proyectos']"  routerLinkActive="active" class="navbar-link px-md-2 font-menu">Proyectos:{{title}}</a>
+    </li>
+      <li class="navbar-item" *ngIf="!change()">
+        <a [routerLink]="['/proyectos']" routerLinkActive="active" class="navbar-link px-md-2 font-menu">Proyectos</a>
+      </li>
+      <li class="navbar-item text-end mx-5 contacto-f" >
+        <a [routerLink]="['/contacto']" routerLinkActive="active" class="navbar-link px-md-2 font-menu">Contacto</a>
+      </li>
+    </ul>
+  </div>
+</div>
+  </div>
+</nav>

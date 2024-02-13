@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+@import "swiper/swiper-bundle.css";
+
+@font-face {
+font-family: 'Cinzel-Bold';
+  src: url('assets/fonts/Cinzel-Bold.ttf');
+}
+@font-face {
+  font-family: 'Cinzel-ExtraBold';
+  src: url('assets/fonts/Cinzel-ExtraBold.ttf');
+}
+@font-face {
+  font-family: 'Cinzel-Regular';
+  src: url('assets/fonts/Cinzel-Regular.ttf');
+}
+@font-face {
+  font-family: 'GeneralSans-Bold';
+  src: url('assets/fonts/body/GeneralSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'GeneralSans-Regular';
+  src: url('assets/fonts/body/GeneralSans-Regular.ttf');
+}
+*{
+  font-family: 'GeneralSans-Regular', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+.font-title{
+  font-family: 'Cinzel-Regular', serif;
+}
+.font-bold{
+  font-family: 'Cinzel-Bold', serif;
+}
+.font-menu{
+  font-family: 'Cinzel-Regular', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.15em;
+  color: #FFFF;
+  text-decoration: none;
+}
+.bg-menu{
+  background: #c8471b85;
+}

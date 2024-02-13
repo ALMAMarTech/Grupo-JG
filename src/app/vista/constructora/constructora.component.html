@@ -1,0 +1,233 @@
+<section class="mb-5">
+  <swiper
+  [loop]="true"
+  [thumbs]="{swiper: thumbsSwiper}"
+  class="mySwiper2"
+  >
+    <ng-template swiperSlide>
+      <img src="assets/conoce/seccion-3.png" alt="Fondo 1" class="position-relative">
+      <div class="position-absolute my-auto">
+        <div class="container">
+          <div class="row min-vh-100">
+            <div class="col-md-6 my-auto text-center" data-aos="slide-left">
+              <p class="font-title header">Constructora</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/conoce/seccion-2.png" alt="Fondo 2" class="position-relative">
+      <div class="position-absolute my-auto">
+        <div class="container">
+          <div class="row min-vh-100">
+            <div class="col-md-6 my-auto text-center" data-aos="slide-left">
+              <p class="font-title header">Constructora</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/conoce/seccion-4.png" alt="Fondo 3" class="position-relative">
+      <div class="position-absolute my-auto">
+        <div class="container">
+          <div class="row min-vh-100">
+            <div class="col-md-6 my-auto text-center" data-aos="slide-left">
+              <p class="font-title header">Constructora</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/conoce/seccion-5.png" alt="Fondo 4" class="position-relative">
+      <div class="position-absolute my-auto">
+        <div class="container">
+          <div class="row min-vh-100">
+            <div class="col-md-6 my-auto text-center" data-aos="slide-left">
+              <p class="font-title header">Constructora</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </swiper>
+  <swiper (swiper)="thumbsSwiper=$event" [slidesPerView]="6" [watchSlidesProgress]="true" class="mySwiper container">
+    <ng-template swiperSlide>
+      <img src="assets/conoce/seccion-3.png" alt="Fondo 4">
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/conoce/seccion-2.png" alt="Fondo 4">
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/conoce/seccion-4.png" alt="Fondo 4">
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/conoce/seccion-5.png" alt="Fondo 4">
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/conoce/seccion-5.png" alt="Fondo 4">
+    </ng-template>
+  </swiper>
+</section>
+<div class="py-5"></div>
+<section class="my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-start">
+      <p class="subtitle font-title">Otros proyectos</p>
+      </div>
+      <div class="col-md-4">
+        <img src="assets/Proyectos/Antequera/antequera1.png" alt="Proyecto" class="position-relative">
+        <div class="sombra position-absolute text-center">
+          <p>ANTEQUERA</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="assets/Proyectos/Antequera/antequera2.png" class="position-relative" alt="Proyecto">
+        <div class="sombra text-center position-absolute text-center">
+          <p>TORRE DEL PARQUE</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="assets/Proyectos/Antequera/antequera3.png" class="position-relative" alt="Proyecto">
+        <div class="sombra text-center position-absolute">
+          <p>PRIVADA SAN ANGEL I</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="py-5"></div>
+<section class="my-5">
+  <owl-carousel-o [options]="customOption">
+    <ng-template carouselSlide>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <p class="title font-title">Nuestro Trayecto</p>
+            <p class="header-s font-title">Fundación</p>
+            <p class="ms-4">Es momento de ofrecer espacios inmobiliarios a la <br>
+              medida</p>
+            <p class="text-end header text-black font-title">1992</p>
+          </div>
+          <div class="col-md-4 offset-4 text-center">
+            <img src="assets/Proyectos/Antequera/Grupo%20LM.png" style="transform: rotate(10.61deg); width: 150px; margin-top: -30px"  alt="Grupo LM">
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template carouselSlide>
+      <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <p class="title font-title">Nuestro Trayecto</p>
+          <p class="header-s font-title">Expanción</p>
+          <p class="ms-4">Fortaleciendo el negocio con expansión
+            Grupo JG logra extender sus desarrollos a ciudades como Irapuato, Querétaro, Celaya, Morelia y León
+          </p>
+          <p class="text-end header text-black font-title">1992</p>
+        </div>
+        <div class="col-md-4 offset-3">
+          <img src="assets/Proyectos/Antequera/mapa.png" style="width: 350px;" alt="">
+        </div>
+      </div>
+    </div>
+    </ng-template>
+    <ng-template carouselSlide>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <p class="title font-title">Nuestro Trayecto</p>
+            <p class="header-s font-title">Marcar la diferencia</p>
+            <p class="ms-4">Marcamos la diferencia y continuamos haciéndolo
+              2020 La expansión continua tras el desarrollo de 3 principales proyectos; Antequera, Torre del Parque, Privada San Ángel.
+            </p>
+            <p class="text-end header text-black font-title">2020</p>
+          </div>
+          <div class="col-md-4 offset-3">
+            <img src="assets/Proyectos/Antequera/Rectangle%2018.png" alt="">
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </owl-carousel-o>
+</section>
+<div class="py-5"></div>
+<!--
+<section class="py-5">
+  <owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/conoce/slider/slider-1.png" alt="Slider-1">
+          </div>
+          <div class="col-md-6 my-auto">
+            <p class="font-title header-s justify-content-center w-75 mx-auto"
+               data-aos="fade-down"
+               data-aos-delay="50"
+               data-aos-duration="700"
+               data-aos-easing="ease-in-out"
+               data-aos-mirror="true"
+               data-aos-once="false"
+            >Momentos <br> memorables</p>
+            <p class="w-75 justify-content-center mx-auto" data-aos="fade-down" data-aos-delay="90" data-aos-duration="900">
+              Marcamos la diferencia y continuamos haciéndolo
+              2020 La expansión continua tras el desarrollo de 3
+              principales proyectos; Antequera, Torre del Parque,
+              Privada San Ángel.
+            </p>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template carouselSlide>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="assets/conoce/slider/slider-2.png"  alt="Slider-2">
+          </div>
+          <div class="col-md-8 my-auto">
+            <p class="font-title header-s justify-content-center w-75 mx-auto mt-4" data-aos="fade-down"
+               data-aos-delay="50"
+               data-aos-duration="700"
+               data-aos-easing="ease-in-out"
+               data-aos-mirror="true"
+               data-aos-once="false">seguridad</p>
+            <p class="w-75 justify-content-center mx-auto" data-aos-duration="900" data-aos="fade-down" data-aos-delay="50">
+              Marcamos la diferencia y continuamos haciéndolo
+              2020 La expansión continua <br> tras el desarrollo de 3
+              principales proyectos; Antequera, Torre del Parque, <br>
+              Privada San Ángel.
+            </p>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template carouselSlide>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/conoce/slider/slider-3.png" alt="Slider-1">
+          </div>
+          <div class="col-md-6 my-auto">
+            <p class="font-title header-s justify-content-center w-75 mx-auto" data-aos="fade-down"
+               data-aos-delay="50"
+               data-aos-duration="700"
+               data-aos-easing="ease-in-out"
+               data-aos-mirror="true"
+               data-aos-once="false" >ambiente <br> familiar</p>
+            <p class="w-75 justify-content-center mx-auto">
+              Marcamos la diferencia y continuamos haciéndolo
+              2020 La expansión continua tras el desarrollo de 3
+              principales proyectos; Antequera, Torre del Parque,
+              Privada San Ángel.</p>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </owl-carousel-o>
+</section>
+-->

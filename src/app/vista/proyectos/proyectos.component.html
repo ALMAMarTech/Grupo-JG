@@ -1,0 +1,130 @@
+<section>
+  <swiper
+  [loop]="true"
+  [thumbs]="{swiper: thumbsSwiper}"
+  class="mySwiper2"
+  >
+    <ng-template swiperSlide>
+      <img src="assets/Proyectos/slider-1.png" alt="fondo 1" class="position-relative">
+      <div class="position-absolute my-auto">
+        <div class="container">
+          <div class="row min-vh-100 text-center">
+            <div class="col-12 my-auto" data-aos="slide-down">
+              <img src="assets/Proyectos/Nuestros%20proyectos.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/home/seccion-1.png" alt="fondo 1" class="position-relative img-fluid">
+      <div class="position-absolute my-auto">
+        <div class="container">
+          <div class="row min-vh-100 text-center">
+            <div class="col-12 my-auto" data-aos="slide-down">
+              <img src="assets/Proyectos/Nuestros%20proyectos.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/home/seccion-2.png" alt="fondo 1" class="position-relative img-fluid">
+      <div class="position-absolute my-auto">
+        <div class="container">
+          <div class="row min-vh-100 text-center">
+            <div class="col-12 my-auto" data-aos="slide-down">
+              <img src="assets/Proyectos/Nuestros%20proyectos.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/home/privada-san-angel/seccion-3.png" alt="fondo 1" class="position-relative img-fluid" >
+      <div class="position-absolute my-auto">
+        <div class="container">
+          <div class="row min-vh-100 text-center">
+            <div class="col-12 my-auto" data-aos="slide-down">
+              <img src="assets/Proyectos/Nuestros%20proyectos.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/home/Proyecto-4/Sección4.png" alt="fondo 1" class="position-relative img-fluid">
+      <div class="position-absolute my-auto">
+        <div class="container">
+          <div class="row min-vh-100 text-center">
+            <div class="col-12 my-auto" data-aos="slide-down">
+              <img src="assets/Proyectos/Nuestros%20proyectos.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </swiper>
+  <swiper
+    (swiper)="thumbsSwiper= $event"
+    [slidesPerView]="6"
+
+    [watchSlidesProgress]="true"
+    class="mySwiper container"
+  >
+    <ng-template swiperSlide>
+      <img src="assets/home/Proyecto-4/min1.png" alt="Miniatura" class="img-fluid">
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/home/Proyecto-4/min2.png" alt="Miniatura" class="img-fluid">
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/home/Proyecto-4/min3.png" alt="Miniatura" class="img-fluid">
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/home/Proyecto-4/min4.png" alt="Miniatura" class="img-fluid">
+    </ng-template>
+    <ng-template swiperSlide>
+      <img src="assets/home/Proyecto-4/min5.png" alt="Miniatura" class="img-fluid">
+    </ng-template>
+  </swiper>
+</section>
+<div class="py-5"></div>
+<section class="my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-start">
+        <p class="subtitle font-title">Nuestros proyectos</p>
+      </div>
+      <div class="col-md-3 col-sm-12 prueba">
+        <a [routerLink]="['/antequera']" class="text-decoration-none" style="cursor: pointer;">
+          <img src="assets/GrupoJG/Antequera.png" alt="Proyecto" class="position-relative img-fluid">
+          <div class="sombra position-absolute text-center">
+            <p class="py-3 texto">ANTEQUERA</p>
+          </div></a>
+      </div>
+      <div class="col-md-3 col-sm-12 prueba">
+        <a [routerLink]="['/torre-del-parque']" class="text-decoration-none " style="cursor: pointer;">
+          <img src="assets/GrupoJG/del-parque.png" class="position-relative img-fluid" alt="Proyecto">
+          <div class="sombra text-center position-absolute text-center">
+            <p class="py-2 texto">TORRE DEL<br> PARQUE</p>
+          </div></a>
+      </div>
+      <div class="col-md-3 col-sm-12 prueba">
+        <a [routerLink]="['/privada-san-angel']" class="text-decoration-none " style="cursor: pointer;">
+          <img src="assets/GrupoJG/san-angel.png" class="position-relative img-fluid" alt="Proyecto">
+          <div class="sombra text-center position-absolute">
+            <p class="py-2 texto">PRIVADA SAN <br> ANGEL I</p>
+          </div></a>
+      </div>
+      <div class="col-md-3 col-sm-12 prueba">
+        <a [routerLink]="['/carranco-vertical']" class="text-decoration-none " style="cursor: pointer;">
+          <img src="assets/GrupoJG/proyecto-4.png" class="position-relative img-fluid" alt="Proyecto">
+          <div class="sombra text-center position-absolute">
+            <p class="py-3 texto">CARRANCO <br> VERTICAL</p>
+          </div></a>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="py-5"></div>

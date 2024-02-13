@@ -1,0 +1,148 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+/*Owl-Carousel*/
+.owl-prev,
+.owl-next {
+  position: absolute;
+  background: none !important;
+
+}
+.sombra{
+   background: #FFFFFF;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 0px 0px 10px 10px;
+   width: 251px;
+   height: 60px;
+   text-align: center;
+ }
+@media  screen and (min-width: 500px) and (max-width: 1100px){
+.sombra{
+  width: 159px !important;
+}
+}
+@media  screen and (min-width: 300px) and (max-width: 499px){
+  .prueba{
+    width: 100%;
+    margin: 45px 0;
+  }
+}
+.texto{
+  font-size: 20px;
+  text-align: center;
+}
+.subtitle{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 109.9%;
+  color: #C8471B;
+}
+.owl-prev {
+  left: 100px;
+}
+.owl-next{
+  left: 170px;
+}
+.owl-dots .owl-dot span {
+  background: #B6B6B6;
+  width: 200px !important;
+  height: 5px !important;
+  margin:  25px 0 !important;
+}
+.owl-dots .owl-dot.active span,
+.owl-dots .owl-dot:hover span {
+  background: #C8471B !important;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 20%;
+  height: 20%;
+  display: inline-block;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  width: 100%;
+  background-size: cover;
+}
+
+.mySwiper {
+  width: 1150px;
+  box-sizing: border-box;
+  margin-top: -70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.title{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 116.5%;
+  color: #000000;
+}
+.mySwiper .swiper-slide {
+  width: 20%;
+  height: 100%;
+  opacity: 1;
+  margin: 0 15px;
+  text-align: center;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+  background-size: cover;
+}
+.header{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 109.9%;
+  color: #FFFFFF;
+}
+.header-s{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 109.9%;
+  color: #C8471B;
+}
